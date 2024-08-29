@@ -3,12 +3,12 @@ public class Main {
 
         // Teste para produtos. As taxas aplicadas em produtos são IPI e ICMS
 
-        Tipo tipoProduto = new Tipo("produto", 250.00);
+        Taxar tipoProduto = new Taxar("produto", 250.00);
         tipoProduto.calculartaxas();
 
         // Teste para serviços. As taxas aplicadas em serviços são ISS e ICMS
 
-        Tipo tipoServico = new Tipo("serviço", 850.00);
+        Taxar tipoServico = new Taxar("serviço", 850.00);
         tipoServico.calculartaxas();
 
     }
